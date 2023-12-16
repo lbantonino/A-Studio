@@ -9,7 +9,7 @@
 }
 
 body {
-  max-width: 100vw !important;
+  width: 100vw !important;
   overflow-x: hidden;
 }
 
@@ -32,6 +32,11 @@ header {
   background-color: #fff;
   margin-top: 40px;
   margin-bottom: 45px;
+}
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+  header {
+    overflow-x: hidden;
+  }
 }
 header .wrapper {
   background-color: white;
@@ -153,6 +158,11 @@ header nav ul li a:hover {
   box-sizing: border-box;
   width: 100vw !important;
   margin: 0 !important;
+}
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+  .one {
+    overflow-x: hidden;
+  }
 }
 @media screen and (min-width: 319px) and (max-width: 1279px) {
   .one {
@@ -342,7 +352,7 @@ header nav ul li a:hover {
 @media screen and (min-width: 319px) and (max-width: 767px) {
   .one .right .shape {
     bottom: -60px;
-    right: -21px;
+    right: 25px;
   }
   .one .right .shape img {
     width: 60%;
@@ -355,6 +365,11 @@ header nav ul li a:hover {
   max-width: 100vw !important;
   display: grid;
   grid-template-columns: minmax(5vw, 1fr) repeat(12, minmax(11px, 100px)) minmax(5vw, 1fr);
+}
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+  .client {
+    overflow-x: hidden;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .client {
@@ -597,51 +612,6 @@ header nav ul li a:hover {
   align-items: center;
 }
 
-.help::before {
-  content: "";
-  position: absolute;
-  background-image: url("../../DOM_06_Final_Exercices/images/section-help/Rectangle1.png");
-  background-repeat: no-repeat;
-  background-position: right center;
-  right: 0;
-  width: 100%;
-  height: 100%;
-}
-@media screen and (min-width: 3440px) {
-  .help::before {
-    background-size: 2040px 850px;
-  }
-}
-@media screen and (min-width: 1920px) and (max-width: 3439px) {
-  .help::before {
-    background-size: 1270px 630px;
-  }
-}
-@media screen and (min-width: 1023px) and (max-width: 1279px) {
-  .help::before {
-    background-size: 838px 454px;
-    right: -68px;
-  }
-}
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  .help::before {
-    background-size: 838px 454px;
-    right: -200px;
-  }
-}
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
-  .help::before {
-    background-size: 838px 535px;
-    right: -165px;
-  }
-}
-@media screen and (min-width: 320px) and (max-width: 767px) {
-  .help::before {
-    background-size: 838px 535px;
-    right: -165px;
-  }
-}
-
 .help {
   margin-right: 0 !important;
   max-width: 100vw !important;
@@ -649,6 +619,11 @@ header nav ul li a:hover {
   grid-template-columns: minmax(5vw, 1fr) repeat(12, minmax(11px, 100px)) minmax(5vw, 1fr);
   margin-bottom: 146px;
   position: relative;
+}
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+  .help {
+    overflow-x: hidden;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .help {
@@ -1098,6 +1073,11 @@ header nav ul li a:hover {
   width: 100vw !important;
   margin-right: 0 !important;
 }
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+  .video {
+    overflow-x: hidden;
+  }
+}
 @media screen and (min-width: 320px) and (max-width: 1024px) {
   .video {
     display: flex;
@@ -1227,6 +1207,11 @@ header nav ul li a:hover {
 .middle-little {
   padding-bottom: 115px;
 }
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+  .middle-little {
+    overflow-x: hidden;
+  }
+}
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .middle-little {
     padding: 0 50px 0px;
@@ -1292,6 +1277,11 @@ header nav ul li a:hover {
   grid-template-columns: minmax(5vw, 1fr) repeat(12, minmax(11px, 100px)) minmax(5vw, 1fr);
   position: relative;
   padding-bottom: 150px;
+}
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+  .client-photos {
+    overflow-x: hidden;
+  }
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .client-photos {
@@ -1396,6 +1386,11 @@ header nav ul li a:hover {
   position: absolute;
   grid-column: 11/-1;
   left: 26px;
+}
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+  .bullePhotos {
+    overflow-x: hidden;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 809px) {
   .bullePhotos {
@@ -1601,6 +1596,11 @@ header nav ul li a:hover {
   height: 184px;
   top: 118px;
 }
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+  .bullePhotos::before {
+    overflow-x: hidden;
+  }
+}
 
 .mySwiperPhotos {
   margin-right: 65px !important;
@@ -1608,6 +1608,11 @@ header nav ul li a:hover {
   margin-left: 0 !important;
   display: flex;
   grid-column: 2/6 !important;
+}
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+  .mySwiperPhotos {
+    overflow-x: hidden;
+  }
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .mySwiperPhotos {
@@ -1755,6 +1760,11 @@ header nav ul li a:hover {
 
 .newsletter {
   margin-bottom: 150px;
+}
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+  .newsletter {
+    overflow-x: hidden;
+  }
 }
 @media screen and (min-width: 320px) and (max-width: 1023px) {
   .newsletter {
@@ -1905,7 +1915,7 @@ header nav ul li a:hover {
 }
 @media screen and (min-width: 320px) and (max-width: 1279px) {
   .newsletter .containerNews .text .title {
-    font-size: 35px;
+    font-size: 30px;
     margin-bottom: 30px;
   }
 }
@@ -1919,6 +1929,7 @@ header nav ul li a:hover {
   .newsletter .containerNews .text .p-text {
     margin-bottom: 10px;
     text-align: center;
+    padding: 0 30px;
   }
 }
 .newsletter .containerNews .inputheight {
@@ -2030,6 +2041,11 @@ footer {
   display: grid;
   grid-template-columns: minmax(5vw, 1fr) repeat(12, minmax(11px, 100px)) minmax(5vw, 1fr);
   height: 400px;
+}
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+  footer {
+    overflow-x: hidden;
+  }
 }
 @media (max-width: 1279px) {
   footer {
@@ -2255,9 +2271,7 @@ footer .copyright {
   margin-bottom: 10px;
 }
 
-@media screen and (min-width: 320px) and (max-width: 1023px) {
-  body {
-    width: 100wv;
-    overflow-x: hidden;
-  }
+body {
+  width: 100vw;
+  overflow-x: hidden;
 }

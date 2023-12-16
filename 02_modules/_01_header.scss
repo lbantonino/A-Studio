@@ -1,4 +1,7 @@
 header {
+  @media screen and (min-width: 320px) and (max-width: 1279px){
+overflow-x: hidden;
+  }
   @include container;
   background-color: $white;
   margin-top: 40px;

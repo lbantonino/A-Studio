@@ -1,4 +1,7 @@
 .one {
+  @media screen and (min-width: 320px) and (max-width: 1279px){
+    overflow-x: hidden;
+      }
   margin: 0 !important;
   @include container;
   padding-bottom: 133px;
@@ -9,6 +12,7 @@
     grid-template-rows: 2fr;
     row-gap: 100px;
     margin-bottom: 20px !important;
+
   }
   .left {
     display: flex;
@@ -158,7 +162,7 @@
       z-index: -1;
       @media screen and (min-width: 319px) and (max-width: 767px) {
         bottom: -60px;
-        right: -21px;
+        right: 25px;
         img {
           width: 60%;
         }

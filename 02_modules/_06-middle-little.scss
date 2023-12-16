@@ -1,4 +1,7 @@
 .middle-little {
+  @media screen and (min-width: 320px) and (max-width: 1279px){
+    overflow-x: hidden;
+      }
   padding-bottom: 115px;
   @media screen and (min-width: 320px) and (max-width: 767px) {
     padding: 0 50px 0px;
