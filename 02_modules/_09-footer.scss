@@ -1,0 +1,220 @@
+footer {
+  @include container;
+  height: 400px;
+@media (max-width: 1279px) {
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 40px;
+    align-items: center;
+    padding: 0 45px;
+    text-align: center;
+}
+  .border-top {
+    grid-column: 2/ -2;
+    border-top: 1px solid #e4e4e4;
+  }
+  .border-bottom {
+    grid-column: 2/ -2;
+    border-top: 1px solid #e4e4e4;
+    margin-bottom: 20px;
+  }
+  .logosRS {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-column: 2 /5;
+    margin-top: 60px;
+    @media (min-width:320px) and (max-width: 767px){
+      margin-top: 700px;
+    }
+    @media (min-width:768px) and (max-width: 1279px){
+      margin-top: 700px;
+    }
+    .logo {
+      .title-logo {
+        padding-bottom: 25px;
+        font-family: $fontLogo;
+        font-size: 27.147px;
+        display: inline-block;
+      }
+      .title-logo:hover {
+        color: $Blue;
+        transform: scale(105%);
+        cursor: pointer;
+      }
+      .plus {
+        font-family: $fontPlus;
+      }
+      .span-logo {
+        font-family: $font;
+        font-size: 27.147px;
+        color: $Blue;
+      }
+    }
+    .text {
+      font-family: $font;
+      font-size: 14px;
+      color: $grayText;
+      line-height: 160%;
+      padding-bottom: 40px;
+      @media screen and (min-width: 768px) and (max-width: 1279px) {
+        padding: 0 100px;
+        
+      }
+    }
+    .social-media {
+      margin-bottom: 30px;
+      display: flex;
+      gap: 15px;
+      @media screen and (max-width: 1279px){
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px; 
+      }
+      img {
+        object-fit: cover;
+        width: 100%;
+      }
+      img:hover {
+        transform: scale(110%);
+        opacity: 0.5;
+      }
+    }
+  }
+  .containMenufooter {
+    display: flex;
+    justify-content: end;
+    grid-column: 6/-2;
+    @media (max-width: 1279px){
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+      align-items: center;
+      padding: 0 45px;
+      text-align: center;
+    }
+    .whatwedo {
+      display: flex;
+      flex-direction: column;
+      margin-top: 60px;
+      @media (max-width: 1279px){
+        margin-left: 0px;
+        margin-top: 0px;
+      }
+      .title-menu {
+        font-size: 20px;
+        font-family: $font;
+        color: $black;
+        padding-bottom: 25px;
+      }
+      ul {
+        li {
+          font-size: 14px;
+          font-family: $font;
+          color: $black;
+          line-height: 160%;
+        }
+        li:hover {
+          cursor: pointer;
+          transform: scale(101%);
+          color: $Blue;
+        }
+      }
+    }
+    .company {
+      margin-left: 120px;
+      margin-top: 60px;
+      @media (max-width: 1279px){
+        margin-left: 0px;
+        
+      }
+      .title-menu {
+        font-size: 20px;
+        font-family: $font;
+        color: $black;
+        padding-bottom: 25px;
+      }
+
+      ul {
+        li {
+          font-size: 14px;
+          font-family: $font;
+          color: $black;
+          line-height: 160%;
+        }
+        li:hover {
+          cursor: pointer;
+          transform: scale(101%);
+          color: $Blue;
+        }
+      }
+    }
+    .support {
+      margin-left: 105px;
+      margin-top: 60px;
+      @media (max-width: 1279px){
+        margin-left: 0px;
+      }
+      .title-menu {
+        font-size: 20px;
+        font-family: $font;
+        color: $black;
+        padding-bottom: 25px;
+      }
+      ul {
+        li {
+          font-size: 14px;
+          font-family: $font;
+          color: $black;
+          line-height: 160%;
+        }
+        li:hover {
+          cursor: pointer;
+          transform: scale(101%);
+          color: $Blue;
+        }
+      }
+    }
+    .contact {
+      margin-left: 105px;
+      margin-top: 60px;
+      @media (max-width: 1279px){
+        margin-left: 0px;
+        margin-bottom: 105px;
+      }
+      .title-menu {
+        font-size: 20px;
+        font-family: $font;
+        color: $black;
+        padding-bottom: 25px;
+      }
+      ul {
+        li {
+          font-size: 14px;
+          font-family: $font;
+          color: $black;
+          line-height: 160%;
+        }
+        li:hover {
+          cursor: pointer;
+          transform: scale(101%);
+          color: $Blue;
+        }
+      }
+    }
+  }
+  .copyright {
+    grid-column: 2/ -2;
+    text-align: center;
+    color: #a4a4a4;
+    font-family: $font;
+    font-size: 14px;
+    line-height: 160%;
+    margin-bottom: 10px;
+  }
+}

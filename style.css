@@ -1,0 +1,2256 @@
+@import url(https://db.onlinewebfonts.com/c/c0c47f73ebd351d0d703e64d8558fe77?family=Averta+Demo+PE);
+@import url(https://db.onlinewebfonts.com/c/c36a75c5ada59665e225bbf5e38efd34?family=Averta-Bold);
+@import url(https://db.onlinewebfonts.com/c/72b6f2c9990bd3d37b8013a59ed78902?family=Proxima+Nova+Bold);
+@import url(https://db.onlinewebfonts.com/c/f14eee643541cf03a10f26c944cc29f5?family=Proxima+Nova+Semibold);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 100vw !important;
+  overflow-x: hidden;
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  display: grid;
+  grid-template-columns: minmax(5vw, 1fr) repeat(12, minmax(11px, 100px)) minmax(5vw, 1fr);
+  background-color: #fff;
+  margin-top: 40px;
+  margin-bottom: 45px;
+}
+header .wrapper {
+  background-color: white;
+  grid-column: 2/4;
+  margin: 0;
+  padding: 0;
+}
+@media screen and (min-width: 319px) and (max-width: 767px) {
+  header .wrapper {
+    grid-column: 2/6;
+    display: flex;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  header .wrapper {
+    grid-column: 2/5;
+    padding: 0;
+    margin: 0;
+  }
+}
+header .wrapper .title-logo {
+  font-family: "Proxima Nova Bold";
+  font-size: 27.147px;
+  display: inline-block;
+}
+@media screen and (min-width: 319px) and (max-width: 767px) {
+  header .wrapper .title-logo {
+    font-size: 20px;
+  }
+}
+header .wrapper .title-logo .plus {
+  font-family: "Proxima Nova Regular";
+}
+@media screen and (min-width: 319px) and (max-width: 767px) {
+  header .wrapper .title-logo .plus {
+    font-size: 20px;
+  }
+}
+header .wrapper .title-logo .span-logo {
+  font-family: "Averta Demo PE";
+  font-size: 27.147px;
+  color: #2639ed;
+}
+@media screen and (min-width: 319px) and (max-width: 767px) {
+  header .wrapper .title-logo .span-logo {
+    font-size: 20px;
+  }
+}
+header .wrapper .title-logo:hover {
+  color: #565656;
+  transform: scale(102%);
+  cursor: pointer;
+}
+header .wrapper .span-logo:hover {
+  color: #565656;
+  transform: scale(102%);
+  cursor: pointer;
+}
+header .hamburger {
+  display: none;
+}
+@media screen and (max-width: 1023px) {
+  header .hamburger {
+    display: flex;
+    grid-column: -3/-2;
+    font-size: 30px;
+    justify-content: end;
+    align-items: center;
+    position: relative;
+    right: -5px;
+  }
+}
+header nav {
+  display: flex;
+  justify-content: end;
+  grid-column: 7/-2;
+  background-color: #fff;
+}
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  header nav {
+    grid-column: 6/-2;
+  }
+}
+@media screen and (max-width: 1023px) {
+  header nav {
+    display: none;
+  }
+}
+header nav ul {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+header nav ul li {
+  font-size: 16px;
+  font-family: "Averta Demo PE";
+  letter-spacing: 0.16px;
+}
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  header nav ul li {
+    font-size: 14px;
+  }
+}
+header nav ul li a {
+  padding-bottom: 2px;
+}
+header nav ul li a:hover {
+  color: rgba(29, 29, 29, 0.623);
+  border-bottom: 3px solid #2639ed;
+  cursor: pointer;
+}
+
+.one {
+  margin: 0 !important;
+  display: grid;
+  grid-template-columns: minmax(5vw, 1fr) repeat(12, minmax(11px, 100px)) minmax(5vw, 1fr);
+  padding-bottom: 133px;
+  box-sizing: border-box;
+  width: 100vw !important;
+  margin: 0 !important;
+}
+@media screen and (min-width: 319px) and (max-width: 1279px) {
+  .one {
+    grid-template-rows: 2fr;
+    row-gap: 100px;
+    margin-bottom: 20px !important;
+  }
+}
+.one .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
+  grid-column: 2/7;
+}
+@media screen and (min-width: 319px) and (max-width: 767px) {
+  .one .left {
+    text-align: center;
+    grid-column: 2/-2;
+    align-items: center;
+    margin-top: 80px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .one .left {
+    grid-column: 4/12;
+    margin-top: 80px;
+    align-items: center;
+  }
+}
+.one .left .title-section1 {
+  font-family: "Averta Demo PE";
+  font-size: 40px;
+  color: #000;
+  padding-bottom: 40px;
+}
+@media screen and (min-width: 319px) and (max-width: 767px) {
+  .one .left .title-section1 {
+    font-size: 30px;
+    width: 300px;
+  }
+}
+.one .left .title-section1 span {
+  color: #2639ed;
+}
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .one .left .title-section1 {
+    font-size: 35px;
+    padding-bottom: 20px;
+  }
+}
+.one .left .text {
+  color: #565656;
+  font-family: "Averta Demo PE";
+  font-size: 16px;
+  line-height: 160%;
+  padding-bottom: 35px;
+}
+@media screen and (min-width: 319px) and (max-width: 767px) {
+  .one .left .text {
+    text-align: center;
+    font-size: 14px;
+    width: 280px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .one .left .text {
+    text-align: center;
+  }
+}
+.one .left .btn {
+  position: relative;
+}
+.one .left .btn .contact {
+  width: 215px;
+  height: 65px;
+  border-radius: 60px;
+  background-color: #2639ed;
+  color: #fff;
+  font-family: "Averta Demo PE";
+  font-size: 20px;
+  letter-spacing: 1.3px;
+  border: none;
+  display: block;
+}
+@media screen and (min-width: 319px) and (max-width: 767px) {
+  .one .left .btn .contact {
+    width: 170px;
+    height: 50px;
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .one .left .btn .contact {
+    width: 190px;
+    height: 50px;
+  }
+}
+.one .left .btn .contact:hover {
+  color: #fff;
+  background-color: rgba(38, 58, 237, 0.6941176471);
+  cursor: pointer;
+  transform: scale(105%);
+}
+.one .left .btn .dotShape-left {
+  position: absolute;
+  width: 196px;
+  height: 154px;
+  top: 30px;
+  z-index: -1;
+  left: -54px;
+}
+@media screen and (min-width: 319px) and (max-width: 767px) {
+  .one .left .btn .dotShape-left {
+    width: 60%;
+    left: -30px;
+    top: -20px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .one .left .btn .dotShape-left {
+    left: -60px;
+    width: 80%;
+    top: -20px;
+  }
+}
+.one .left .btn .dotShape-right {
+  position: absolute;
+  width: 196px;
+  height: 154px;
+  top: 30px;
+  z-index: -1;
+  left: 153px;
+}
+@media screen and (min-width: 319px) and (max-width: 767px) {
+  .one .left .btn .dotShape-right {
+    width: 60%;
+    left: 110px;
+    top: -20px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .one .left .btn .dotShape-right {
+    left: 104px;
+    width: 80%;
+    top: -20px;
+  }
+}
+.one .right {
+  position: relative;
+  z-index: 2;
+  grid-column: 8/-1;
+}
+@media screen and (min-width: 319px) and (max-width: 767px) {
+  .one .right {
+    grid-row: 2/2;
+    grid-column: 4/-1;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .one .right {
+    grid-row: 2/2;
+    grid-column: 5/-1;
+  }
+}
+.one .right .shapeCircle {
+  z-index: -2;
+  position: absolute;
+  left: -65px;
+}
+@media screen and (min-width: 319px) and (max-width: 767px) {
+  .one .right .shapeCircle {
+    left: -40px;
+    top: 0px;
+  }
+  .one .right .shapeCircle img {
+    width: 70%;
+  }
+}
+.one .right .shape {
+  position: absolute;
+  bottom: -100px;
+  right: 120px;
+  z-index: -1;
+}
+@media screen and (min-width: 319px) and (max-width: 767px) {
+  .one .right .shape {
+    bottom: -60px;
+    right: -21px;
+  }
+  .one .right .shape img {
+    width: 60%;
+  }
+}
+
+.client {
+  margin: 0 !important;
+  padding-bottom: 95px;
+  max-width: 100vw !important;
+  display: grid;
+  grid-template-columns: minmax(5vw, 1fr) repeat(12, minmax(11px, 100px)) minmax(5vw, 1fr);
+}
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .client {
+    margin-bottom: 90px !important;
+  }
+}
+.client .left-client {
+  grid-column: 2/6;
+}
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+  .client .left-client {
+    grid-column: 4/12;
+  }
+}
+.client .left-client .title-client {
+  padding-bottom: 15px;
+  font-family: "Averta Demo PE";
+  font-size: 40px;
+  color: #000;
+}
+.client .left-client .title-client span {
+  color: #2639ed;
+}
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+  .client .left-client .title-client {
+    font-size: 30px;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 1022px) {
+  .client .left-client .title-client {
+    font-size: 30px;
+    text-align: center;
+  }
+}
+.client .left-client .text-client {
+  font-size: 18px;
+  color: #757575;
+  font-family: "Averta Demo PE";
+  line-height: 160%;
+}
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+  .client .left-client .text-client {
+    font-size: 14px;
+    text-align: center;
+    padding: 0px;
+  }
+  .client .left-client .text-client br {
+    display: none;
+  }
+}
+.client .right-slide-client {
+  position: relative;
+  height: 100%;
+  grid-column: 6/-2;
+  display: flex;
+  align-items: end;
+}
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .client .right-slide-client {
+    grid-column: 3/-3;
+    display: block;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 429px) {
+  .client .right-slide-client {
+    grid-column: 3/-3;
+    display: block;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 430px) and (max-width: 767px) {
+  .client .right-slide-client {
+    grid-column: 3/-3;
+    display: block;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .client .right-slide-client {
+    grid-column: 3/-3;
+    display: block;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+}
+.client .right-slide-client .swiper {
+  width: 800px;
+  height: 80px;
+}
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .client .right-slide-client .swiper {
+    width: 192px !important;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 389px) {
+  .client .right-slide-client .swiper {
+    width: 203px;
+    left: 7px;
+  }
+}
+@media screen and (min-width: 390px) and (max-width: 411px) {
+  .client .right-slide-client .swiper {
+    width: 203px;
+    left: 14px;
+  }
+}
+@media screen and (min-width: 412px) and (max-width: 429px) {
+  .client .right-slide-client .swiper {
+    width: 203px;
+    left: 22px;
+  }
+}
+@media screen and (min-width: 413px) and (max-width: 767px) {
+  .client .right-slide-client .swiper {
+    width: 203px;
+    left: 22px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .client .right-slide-client .swiper {
+    width: 560px;
+    left: -10px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .client .right-slide-client .swiper {
+    left: -60px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .client .right-slide-client .swiper-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 1279px) and (max-width: 1280px) {
+  .client .right-slide-client .swiper-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.client .right-slide-client .swiper-slide {
+  display: flex;
+  align-items: end;
+  width: 200px !important;
+  height: 80px;
+  text-align: center;
+}
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .client .right-slide-client .swiper-slide {
+    width: 192px !important;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .client .right-slide-client .swiper-slide {
+    width: 192px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .client .right-slide-client .swiper-slide {
+    width: 192px;
+  }
+}
+@media screen and (min-width: 1279px) and (max-width: 1280px) {
+  .client .right-slide-client .swiper-slide {
+    width: 192px;
+  }
+}
+.client .right-slide-client .swiper-slide img {
+  width: 50%;
+}
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .client .right-slide-client .swiper-slide img {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .client .right-slide-client .swiper-slide img {
+    width: 60%;
+  }
+}
+@media screen and (min-width: 390px) and (max-width: 411px) {
+  .client .right-slide-client .swiper-slide img {
+    width: 60%;
+  }
+}
+.client .right-slide-client .swiper-slide:nth-child(1) {
+  display: flex;
+  align-items: center;
+}
+.client .right-slide-client .swiper-slide:nth-child(2) {
+  display: flex;
+  align-items: center;
+}
+.client .right-slide-client .swiper-slide:nth-child(3) {
+  display: flex;
+  align-items: center;
+}
+.client .right-slide-client .swiper-slide:nth-child(4) {
+  display: flex;
+  align-items: center;
+}
+.client .right-slide-client .swiper-slide:nth-child(5) {
+  display: flex;
+  align-items: center;
+}
+.client .right-slide-client .swiper-slide:nth-child(6) {
+  display: flex;
+  align-items: center;
+}
+.client .right-slide-client .swiper-slide:nth-child(7) {
+  display: flex;
+  align-items: center;
+}
+.client .right-slide-client .swiper-slide:nth-child(8) {
+  display: flex;
+  align-items: center;
+}
+.client .right-slide-client .swiper-slide:nth-child(9) {
+  display: flex;
+  align-items: center;
+}
+.client .right-slide-client .swiper-slide:nth-child(10) {
+  display: flex;
+  align-items: center;
+}
+.client .right-slide-client .swiper-slide:nth-child(11) {
+  display: flex;
+  align-items: center;
+}
+
+.help::before {
+  content: "";
+  position: absolute;
+  background-image: url("../../DOM_06_Final_Exercices/images/section-help/Rectangle1.png");
+  background-repeat: no-repeat;
+  background-position: right center;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+@media screen and (min-width: 3440px) {
+  .help::before {
+    background-size: 2040px 850px;
+  }
+}
+@media screen and (min-width: 1920px) and (max-width: 3439px) {
+  .help::before {
+    background-size: 1270px 630px;
+  }
+}
+@media screen and (min-width: 1023px) and (max-width: 1279px) {
+  .help::before {
+    background-size: 838px 454px;
+    right: -68px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .help::before {
+    background-size: 838px 454px;
+    right: -200px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .help::before {
+    background-size: 838px 535px;
+    right: -165px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .help::before {
+    background-size: 838px 535px;
+    right: -165px;
+  }
+}
+
+.help {
+  margin-right: 0 !important;
+  max-width: 100vw !important;
+  display: grid;
+  grid-template-columns: minmax(5vw, 1fr) repeat(12, minmax(11px, 100px)) minmax(5vw, 1fr);
+  margin-bottom: 146px;
+  position: relative;
+}
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .help {
+    grid-template-rows: 150px 900px;
+    row-gap: 150px;
+    margin-bottom: 90px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .help {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.help .display-help {
+  position: relative;
+  grid-column: 2/6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .help .display-help {
+    flex-direction: row;
+    align-items: center;
+    grid-column: 2/-2;
+    grid-row: 1/1;
+    height: 150px;
+  }
+}
+.help .display-help .left-help {
+  position: absolute;
+  grid-column: 2/6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .help .display-help .left-help {
+    position: relative;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .help .display-help .left-help {
+    text-align: center;
+  }
+}
+.help .display-help .left-help .shape {
+  position: absolute;
+  z-index: -2;
+  top: 296px;
+  left: 87px;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .help .display-help .left-help .text-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 60px;
+  }
+}
+.help .display-help .left-help .text-left .title-help {
+  font-family: "Averta Demo PE";
+  font-size: 40px;
+  color: #000;
+  padding-bottom: 30px;
+}
+.help .display-help .left-help .text-left .title-help span {
+  color: #2639ed;
+}
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .help .display-help .left-help .text-left .title-help {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .help .display-help .left-help .text-left .title-help {
+    width: 300px;
+    font-size: 30px;
+    text-align: center;
+  }
+}
+.help .display-help .left-help .text-left .text-help {
+  font-family: "Averta Demo PE";
+  color: #565656;
+  font-size: 16px;
+}
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .help .display-help .left-help .text-left .text-help {
+    width: 450px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .help .display-help .left-help .text-left .text-help {
+    font-size: 13px;
+    width: 250px;
+    text-align: center;
+  }
+}
+.help .display-help .left-help .text-left::before {
+  content: "";
+  position: absolute;
+  top: -60px;
+  left: -34px;
+  background-image: url("../../DOM_06_Final_Exercices/images/section-help/Rectangle25.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  width: 178px;
+  height: 178px;
+  z-index: -1;
+}
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .help .display-help .left-help .text-left::before {
+    background-size: 70%;
+    top: -90px;
+    left: -15px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .help .display-help .left-help .text-left::before {
+    background-size: 70%;
+    top: -82px;
+    left: 19px;
+  }
+}
+.help .display-help::before {
+  content: "";
+  position: absolute;
+  bottom: 100px;
+  left: 212px;
+  background-image: url("../../DOM_06_Final_Exercices/images/section-help/Dot.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  width: 196px;
+  height: 154px;
+  z-index: -1;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .help .display-help::before {
+    left: 357px;
+    bottom: -50px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .help .display-help::before {
+    left: 473px;
+    bottom: -50px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 430px) {
+  .help .display-help::before {
+    background-size: 65%;
+    bottom: 0px;
+    left: 221px;
+  }
+}
+.help .display-help::after {
+  content: "";
+  position: absolute;
+  bottom: 100px;
+  left: 0px;
+  background-image: url("../../DOM_06_Final_Exercices/images/section-help/Dot.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  width: 196px;
+  height: 154px;
+  z-index: -1;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .help .display-help::after {
+    left: 143px;
+    bottom: -50px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .help .display-help::after {
+    left: 261px;
+    bottom: -50px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 430px) {
+  .help .display-help::after {
+    background-size: 65%;
+    bottom: 0px;
+    left: 84px;
+  }
+}
+.help .right-help-left {
+  margin-top: 80px;
+  grid-column: 7/10;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 30px;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .help .right-help-left {
+    position: absolute;
+    top: 280px;
+    grid-column: 3/8;
+    margin-top: 40px;
+    left: -30px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .help .right-help-left {
+    position: absolute;
+    top: 280px;
+    grid-column: 3/8;
+    margin-top: 40px;
+    left: 58px;
+  }
+}
+.help .right-help-left .contain-flex-card-up {
+  display: flex;
+  align-items: center;
+  grid-column: 1/1;
+  grid-row: 1/1;
+}
+.help .right-help-left .contain-flex-card-up .card-left-high {
+  width: 308px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  padding: 40px 31px 57px;
+  border: 1px solid #f2f2f2;
+  background-color: #fff;
+  box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
+}
+.help .right-help-left .contain-flex-card-up .card-left-high .imageBg-left-high {
+  background-color: #f1f7ff;
+  border-radius: 20px;
+  padding: 23px;
+  margin-bottom: 30px;
+}
+.help .right-help-left .contain-flex-card-up .card-left-high .imageBg-left-high img {
+  width: 100%;
+}
+.help .right-help-left .contain-flex-card-up .card-left-high h2 {
+  text-align: center;
+  font-size: 24px;
+  color: #000;
+  font-family: "Averta Demo PE";
+  padding-bottom: 27px;
+}
+.help .right-help-left .contain-flex-card-up .card-left-high p {
+  text-align: center;
+  font-size: 16px;
+  font-family: "Averta Demo PE";
+  color: #757575;
+  line-height: 140%;
+}
+.help .right-help-left .contain-flex-card-down {
+  display: flex;
+  align-items: center;
+  grid-column: 1/1;
+  grid-row: 2/2;
+}
+.help .right-help-left .contain-flex-card-down .card-left-high {
+  width: 308px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  padding: 40px 31px 57px;
+  border: 1px solid #f2f2f2;
+  background-color: #fff;
+  box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
+}
+.help .right-help-left .contain-flex-card-down .card-left-high .imageBg-left-high {
+  background-color: #fff2f8;
+  border-radius: 20px;
+  padding: 23px;
+  margin-bottom: 30px;
+}
+.help .right-help-left .contain-flex-card-down .card-left-high .imageBg-left-high img {
+  width: 100%;
+}
+.help .right-help-left .contain-flex-card-down .card-left-high h2 {
+  text-align: center;
+  font-size: 24px;
+  color: #000;
+  font-family: "Averta Demo PE";
+  padding-bottom: 27px;
+}
+.help .right-help-left .contain-flex-card-down .card-left-high p {
+  text-align: center;
+  font-size: 16px;
+  font-family: "Averta Demo PE";
+  color: #757575;
+  line-height: 140%;
+}
+.help .right-help-right {
+  margin-left: 40px;
+  grid-column: 10/14;
+  display: grid;
+  grid-template-columns: 309px;
+  grid-template-rows: 387px 387px;
+  row-gap: 30px;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .help .right-help-right {
+    margin-left: 0px;
+    margin-top: 30px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .help .right-help-right {
+    position: absolute;
+    top: 260px;
+    grid-column: 8/-2;
+    margin-left: 20px;
+  }
+}
+.help .right-help-right .cercle {
+  position: absolute;
+  z-index: -2;
+  right: 126px;
+  bottom: 44px;
+}
+@media screen and (min-width: 3440px) {
+  .help .right-help-right .cercle {
+    right: 1055px;
+    bottom: -55px;
+  }
+}
+@media screen and (min-width: 1920px) and (max-width: 3439px) {
+  .help .right-help-right .cercle {
+    right: 340px;
+    bottom: 40px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .help .right-help-right .cercle {
+    right: 40px;
+    bottom: -40px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+  .help .right-help-right .cercle {
+    right: 40px;
+    bottom: -40px;
+  }
+}
+@media screen and (min-width: 390px) and (max-width: 431px) {
+  .help .right-help-right .cercle {
+    right: 90px;
+  }
+}
+.help .right-help-right .contain-flex-card-up {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  grid-column: 1/1;
+  grid-row: 1/1;
+}
+.help .right-help-right .contain-flex-card-up .card-left-high {
+  width: 308px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 40px;
+  padding: 40px 31px 57px;
+  border: 1px solid #f2f2f2;
+  background-color: #fff;
+  box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
+}
+.help .right-help-right .contain-flex-card-up .card-left-high .imageBg-left-high {
+  background-color: #fff7e3;
+  border-radius: 20px;
+  padding: 23px;
+  margin-bottom: 30px;
+}
+.help .right-help-right .contain-flex-card-up .card-left-high .imageBg-left-high img {
+  width: 100%;
+}
+.help .right-help-right .contain-flex-card-up .card-left-high h2 {
+  text-align: center;
+  font-size: 24px;
+  color: #000;
+  font-family: "Averta Demo PE";
+  padding-bottom: 27px;
+}
+.help .right-help-right .contain-flex-card-up .card-left-high p {
+  text-align: center;
+  font-size: 16px;
+  font-family: "Averta Demo PE";
+  color: #757575;
+  line-height: 140%;
+}
+.help .right-help-right .contain-flex-card-down {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  grid-column: 1/1;
+  grid-row: 2/2;
+}
+.help .right-help-right .contain-flex-card-down .card-left-high {
+  width: 308px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  padding: 40px 31px 57px;
+  border: 1px solid #f2f2f2;
+  background-color: #fff;
+  box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
+}
+.help .right-help-right .contain-flex-card-down .card-left-high .imageBg-left-high {
+  background-color: #deffee;
+  border-radius: 20px;
+  padding: 23px;
+  margin-bottom: 30px;
+}
+.help .right-help-right .contain-flex-card-down .card-left-high .imageBg-left-high img {
+  width: 100%;
+}
+.help .right-help-right .contain-flex-card-down .card-left-high h2 {
+  text-align: center;
+  font-size: 24px;
+  color: #000;
+  font-family: "Averta Demo PE";
+  padding-bottom: 27px;
+}
+.help .right-help-right .contain-flex-card-down .card-left-high p {
+  text-align: center;
+  font-size: 16px;
+  font-family: "Averta Demo PE";
+  color: #757575;
+  line-height: 140%;
+}
+
+.video {
+  display: grid;
+  grid-template-columns: minmax(5vw, 1fr) repeat(12, minmax(11px, 100px)) minmax(5vw, 1fr);
+  position: relative;
+  z-index: 1;
+  margin-bottom: 180px;
+  width: 100vw !important;
+  margin-right: 0 !important;
+}
+@media screen and (min-width: 320px) and (max-width: 1024px) {
+  .video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+  }
+}
+.video .youtube-player {
+  grid-column: 2/8;
+}
+.video .youtube-player iframe {
+  border-radius: 52px;
+  box-shadow: 10px 20px 50px 0px rgba(0, 0, 0, 0.15);
+}
+@media screen and (min-width: 320px) and (max-width: 389px) {
+  .video .youtube-player iframe {
+    width: 300px;
+    height: 200px;
+    border-radius: 18px;
+    margin-bottom: 50px;
+  }
+}
+@media screen and (min-width: 390px) and (max-width: 430px) {
+  .video .youtube-player iframe {
+    width: 360px;
+    height: 260px;
+    border-radius: 22px;
+    margin-bottom: 80px;
+  }
+}
+.video .youtube-player::before {
+  content: "";
+  background-image: url("../../DOM_06_Final_Exercices/images/section-video/Ellipse1.png");
+  width: 129px;
+  height: 129px;
+  bottom: -50px;
+  left: 488px;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  z-index: -1;
+  position: absolute;
+}
+.video .text-video {
+  grid-column: 9/-2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+@media screen and (min-width: 320px) and (max-width: 1024px) {
+  .video .text-video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.video .text-video .title-video {
+  font-family: "Averta Demo PE";
+  font-size: 40px;
+  color: #000;
+  line-height: 1.2;
+  padding-bottom: 30px;
+}
+.video .text-video .title-video span {
+  color: #2639ed;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .video .text-video .title-video {
+    width: 290px;
+    font-size: 30px;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .video .text-video .title-video {
+    padding: 80px 100px 0;
+    text-align: center;
+  }
+}
+.video .text-video .title-video::before {
+  content: "";
+  background-image: url("../../DOM_06_Final_Exercices/images/section-video/Rectangle2.png");
+  width: 179px;
+  height: 178px;
+  top: -30px;
+  left: -30px;
+  background-repeat: no-repeat;
+  background-position: left top;
+  z-index: -1;
+  position: absolute;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .video .text-video .title-video::before {
+    left: 10px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .video .text-video .title-video::before {
+    left: 70px;
+    top: 30px;
+  }
+}
+.video .text-video .p-video {
+  color: #565656;
+  font-family: "Averta Demo PE";
+  font-size: 16px;
+  line-height: 160%;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .video .text-video .p-video {
+    padding: 30px;
+    text-align: center;
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .video .text-video .p-video {
+    padding: 80px 80px 0;
+    text-align: center;
+  }
+}
+
+.middle-little {
+  padding-bottom: 115px;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .middle-little {
+    padding: 0 50px 0px;
+  }
+}
+.middle-little .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.middle-little .text .title {
+  text-align: center;
+  padding-bottom: 17px;
+  font-family: "Averta Demo PE";
+  font-size: 40px;
+  color: #000;
+}
+.middle-little .text .title br {
+  display: none;
+}
+@media screen and (min-width: 430px) and (max-width: 767px) {
+  .middle-little .text .title br {
+    display: block;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .middle-little .text .title {
+    font-size: 30px;
+    padding: 0 10px 20px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .middle-little .text .title {
+    font-size: 25px;
+  }
+}
+.middle-little .text .title span {
+  color: #2639ed;
+}
+.middle-little .text .p-middle {
+  text-align: center;
+  font-size: 18px;
+  color: #757575;
+  line-height: 160%;
+  font-family: "Averta Demo PE";
+}
+.middle-little .text .p-middle br {
+  display: none;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .middle-little .text .p-middle {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) and (min-width: 321px) and (max-width: 767px) {
+  .middle-little .text .p-middle br {
+    display: block;
+  }
+}
+
+.client-photos {
+  display: grid;
+  grid-template-columns: minmax(5vw, 1fr) repeat(12, minmax(11px, 100px)) minmax(5vw, 1fr);
+  position: relative;
+  padding-bottom: 150px;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .client-photos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 400px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .client-photos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 400px;
+  }
+}
+.client-photos .display {
+  position: relative;
+  z-index: 2;
+  grid-column: 2/-5 !important;
+  display: flex;
+  align-items: center;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .client-photos .display {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .client-photos .display {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.client-photos .display .ellipse {
+  position: absolute;
+  z-index: 1;
+  width: 120px;
+  height: 120px;
+  top: 268px;
+}
+.client-photos .display .ellipse img {
+  width: 100%;
+}
+.client-photos .display .shadow {
+  position: absolute;
+  z-index: 1;
+  border-radius: 500px 0px 500px 500px !important;
+  background-color: rgba(0, 0, 0, 0);
+  width: 400px;
+  height: 400px;
+  top: 0;
+  left: 0px;
+  box-shadow: 4px 7px 20px rgba(0, 0, 0, 0.293);
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .client-photos .display .shadow {
+    border-radius: 600px 0px 600px 600px !important;
+    width: 250px;
+    height: 250px;
+    top: 73px;
+    left: 73px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .client-photos .display .shadow {
+    top: 0;
+    left: 32px;
+  }
+}
+.client-photos .display::before {
+  position: absolute;
+  content: "";
+  background-image: url("../../DOM_06_Final_Exercices/images/section-teams/Dot.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+  width: 196px;
+  height: 154px;
+  top: -33px;
+  left: 240px;
+}
+@media screen and (min-width: 321px) and (max-width: 767px) {
+  .client-photos .display::before {
+    top: 40px;
+    left: 166px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .client-photos .display::before {
+    top: 40px;
+    left: 145px;
+  }
+}
+
+.bullePhotos {
+  position: absolute;
+  grid-column: 11/-1;
+  left: 26px;
+}
+@media screen and (min-width: 768px) and (max-width: 809px) {
+  .bullePhotos {
+    position: none;
+    margin-top: 740px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    left: 250px;
+  }
+}
+@media screen and (min-width: 810px) and (max-width: 834px) {
+  .bullePhotos {
+    position: none;
+    margin-top: 740px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    left: 270px;
+  }
+}
+@media screen and (min-width: 835px) and (max-width: 1279px) {
+  .bullePhotos {
+    position: none;
+    margin-top: 740px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    left: 375px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .bullePhotos {
+    position: none;
+    margin-top: 1140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 10px;
+    height: 378px;
+    width: 300px;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 389px) {
+  .bullePhotos {
+    left: 52.5px;
+    top: 770px;
+  }
+}
+@media screen and (min-width: 390px) and (max-width: 411px) {
+  .bullePhotos {
+    left: 60px;
+    top: 770px;
+  }
+}
+@media screen and (min-width: 412px) and (max-width: 429px) {
+  .bullePhotos {
+    left: 71px;
+    bottom: 100px;
+  }
+}
+@media screen and (min-width: 430px) and (max-width: 767px) {
+  .bullePhotos {
+    left: 80px;
+    bottom: 100px;
+  }
+}
+.bullePhotos .bulleC1 {
+  position: absolute;
+  left: -30px;
+  top: 60px;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 320px) {
+  .bullePhotos .bulleC1 {
+    left: 0px;
+  }
+}
+.bullePhotos .bulleC1 .photos1 {
+  width: 98px;
+  height: 98px;
+  flex-shrink: 0;
+}
+.bullePhotos .bulleC1 .photos1 img {
+  object-fit: cover;
+  border-radius: 50%;
+  flex-shrink: 0;
+  height: 100%;
+}
+.bullePhotos .bulleC1 .photos2 {
+  width: 68px;
+  height: 68px;
+  flex-shrink: 0;
+}
+.bullePhotos .bulleC1 .photos2 img {
+  margin-top: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  flex-shrink: 0;
+  height: 100%;
+}
+.bullePhotos .bulleC2 {
+  position: absolute;
+  left: -30px;
+  top: 0px;
+  display: flex;
+  flex-direction: column;
+}
+.bullePhotos .bulleC2 .photos1 {
+  width: 68px;
+  height: 68px;
+  flex-shrink: 0;
+  margin-left: 138px;
+}
+.bullePhotos .bulleC2 .photos1 img {
+  object-fit: cover;
+  border-radius: 50%;
+  flex-shrink: 0;
+  height: 100%;
+}
+.bullePhotos .bulleC2 .photos2 {
+  width: 120px;
+  height: 120px;
+  flex-shrink: 0;
+  margin-left: 117px;
+}
+.bullePhotos .bulleC2 .photos2 img {
+  margin-top: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  flex-shrink: 0;
+  height: 100%;
+}
+.bullePhotos .bulleC2 .photos3 {
+  width: 98px;
+  height: 98px;
+  flex-shrink: 0;
+  margin-left: 97px;
+}
+.bullePhotos .bulleC2 .photos3 img {
+  margin-top: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  flex-shrink: 0;
+  height: 100%;
+}
+.bullePhotos .bulleC3 {
+  position: absolute;
+  left: -30px;
+  top: 0px;
+  display: flex;
+  flex-direction: column;
+}
+.bullePhotos .bulleC3 .photos1 {
+  width: 54px;
+  height: 54px;
+  flex-shrink: 0;
+  margin-left: 250px;
+  margin-top: 60px;
+}
+.bullePhotos .bulleC3 .photos1 img {
+  object-fit: cover;
+  border-radius: 50%;
+  flex-shrink: 0;
+  height: 100%;
+}
+.bullePhotos .bulleC3 .photos2 {
+  width: 54px;
+  height: 54px;
+  flex-shrink: 0;
+  margin-left: 276px;
+  margin-top: 0px;
+}
+.bullePhotos .bulleC3 .photos2 img {
+  margin-top: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  flex-shrink: 0;
+  height: 100%;
+}
+.bullePhotos .bulleC3 .photos3 {
+  width: 68px;
+  height: 68px;
+  flex-shrink: 0;
+  margin-left: 230px;
+}
+.bullePhotos .bulleC3 .photos3 img {
+  margin-top: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  flex-shrink: 0;
+  height: 100%;
+}
+
+.bullePhotos::before {
+  position: absolute;
+  content: "";
+  background-image: url("../../DOM_06_Final_Exercices/images/section-teams/rond.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 184px;
+  height: 184px;
+  top: 118px;
+}
+
+.mySwiperPhotos {
+  margin-right: 65px !important;
+  gap: 0 !important;
+  margin-left: 0 !important;
+  display: flex;
+  grid-column: 2/6 !important;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .mySwiperPhotos {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .mySwiperPhotos .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.mySwiperPhotos .photo {
+  margin: 0 !important;
+}
+.mySwiperPhotos .photo img {
+  border-radius: 500px 0px 500px 500px !important;
+  object-fit: cover;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .mySwiperPhotos .photo img {
+    border-radius: 600px 0px 600px 600px !important;
+    width: 250px;
+    height: 250px;
+  }
+}
+
+.swiper {
+  margin: 0 !important;
+  position: absolute;
+  grid-column: 7/11;
+  width: 400px;
+  height: 400px;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .swiper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+}
+
+.mySwiperText {
+  margin: 0 0 0 65px !important;
+  height: 215px;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .mySwiperText {
+    width: 300px;
+    height: 270px;
+    margin-left: 0 !important;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 1024px) {
+  .mySwiperText {
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+  }
+}
+.mySwiperText .swiper-slide {
+  font-size: 18px;
+  background: rgba(255, 255, 255, 0);
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 320px) and (max-width: 1024px) {
+  .mySwiperText .swiper-slide {
+    margin-top: 30px !important;
+  }
+}
+.mySwiperText .swiper-slide .char .name {
+  font-size: 24px;
+  font-family: "Averta Demo PE";
+  color: #000;
+  padding-bottom: 20px;
+}
+.mySwiperText .swiper-slide .char .name span {
+  color: #2639ed;
+}
+.mySwiperText .swiper-slide .char .opinion {
+  font-size: 16px;
+  color: #565656;
+  font-family: "Averta Demo PE";
+  line-height: 160%;
+  margin-bottom: 40px;
+}
+
+.swiper-pagination {
+  margin: 0 25px 0 0;
+  position: relative;
+  width: 160px !important;
+  display: flex;
+  box-sizing: border-box;
+  margin-right: 25px;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .swiper-pagination {
+    margin-top: 40px !important;
+  }
+}
+.swiper-pagination span {
+  width: 12px;
+  height: 12px;
+  flex-shrink: 0;
+  margin-right: 20px !important;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .swiper-pagination span {
+    margin-top: 40px !important;
+  }
+}
+
+.swiper-pagination .swiper-pagination-bullet-active,
+.swiper-pagination-clickable .swiper-pagination-bullet-active,
+.swiper-pagination-bullets .swiper-pagination-bullet-active,
+.swiper-pagination-horizontal .swiper-pagination-bullet-active {
+  background: #2639ed;
+  margin-left: 0 !important;
+}
+
+.swiper-pagination {
+  height: auto;
+}
+
+.mySwiperText .swiper-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.mySwiperPhotos,
+.mySwiperText {
+  pointer-events: none;
+}
+
+.mySwiperPhotos .swiper-container {
+  pointer-events: auto;
+}
+
+.newsletter {
+  margin-bottom: 150px;
+}
+@media screen and (min-width: 320px) and (max-width: 1023px) {
+  .newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+  }
+}
+.newsletter .containerNews {
+  position: relative;
+  height: 292px;
+  display: flex;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: minmax(5vw, 1fr) repeat(12, minmax(11px, 100px)) minmax(5vw, 1fr);
+}
+@media screen and (min-width: 320px) and (max-width: 1023px) {
+  .newsletter .containerNews {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 20px;
+    position: unset;
+  }
+}
+@media screen and (min-width: 1023px) and (max-width: 1279px) {
+  .newsletter .containerNews {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 20px;
+    position: unset;
+  }
+}
+.newsletter .containerNews .shape {
+  grid-column: 2/-2;
+  z-index: 0;
+  position: absolute;
+  content: "";
+  background-image: url("../../DOM_06_Final_Exercices/images/section-newsletter/shape.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  width: 543px;
+  height: 292px;
+  top: 95px;
+  left: -40px;
+}
+@media screen and (min-width: 320px) and (max-width: 1023px) {
+  .newsletter .containerNews .shape {
+    display: block;
+    position: static;
+  }
+}
+.newsletter .containerNews .lightblue::before {
+  z-index: 0;
+  position: absolute;
+  content: "";
+  background-image: url("../../DOM_06_Final_Exercices/images/section-newsletter/dots.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 178px;
+  height: 178px;
+  top: -70px;
+  right: -33px;
+}
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
+  .newsletter .containerNews .lightblue::before {
+    top: -70px;
+    right: 0px;
+  }
+}
+.newsletter .containerNews .lightblue::after {
+  z-index: 0;
+  position: absolute;
+  content: "";
+  background-image: url("../../DOM_06_Final_Exercices/images/section-newsletter/darkblue.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 543px;
+  height: 292px;
+  top: 0px;
+  right: 0px;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .newsletter .containerNews .lightblue::after {
+    display: none;
+  }
+}
+.newsletter .containerNews .lightblue {
+  position: absolute;
+  z-index: 1;
+  background-color: #f4f9ff;
+  height: 292px;
+  width: 1200px;
+  border-radius: 75px;
+  grid-column: 2/-2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .newsletter .containerNews .lightblue {
+    grid-column: unset;
+    width: 205px;
+    height: 232px;
+    border-radius: 35px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .newsletter .containerNews .lightblue {
+    height: 244px;
+    width: 629px;
+    border-radius: 43px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .newsletter .containerNews .lightblue {
+    width: 888px;
+  }
+}
+.newsletter .containerNews .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  grid-column: 3/8;
+  z-index: 1;
+  height: 292px;
+}
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+  .newsletter .containerNews .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 30px;
+    text-align: center;
+  }
+}
+.newsletter .containerNews .text .title {
+  font-family: "Averta Demo PE";
+  font-size: 40px;
+  color: #000;
+}
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+  .newsletter .containerNews .text .title {
+    font-size: 35px;
+    margin-bottom: 30px;
+  }
+}
+.newsletter .containerNews .text .p-text {
+  font-family: "Averta Demo PE";
+  font-size: 18px;
+  color: #757575;
+  line-height: 160%;
+}
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+  .newsletter .containerNews .text .p-text {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+}
+.newsletter .containerNews .inputheight {
+  position: absolute;
+  z-index: 2;
+  grid-column: 8/-2;
+  right: 0;
+  margin-right: 80px;
+}
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+  .newsletter .containerNews .inputheight {
+    margin-right: 0px;
+    display: flex;
+    position: unset;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+.newsletter .containerNews .inputheight .input {
+  position: relative;
+  z-index: 1;
+  display: flex;
+}
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+  .newsletter .containerNews .inputheight .input {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -73px;
+  }
+}
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  .newsletter .containerNews .inputheight .input {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -35px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .newsletter .containerNews .inputheight .input {
+    margin-bottom: -135px;
+  }
+}
+.newsletter .containerNews .inputheight .input input {
+  margin-top: 105px;
+  border-radius: 60px;
+  outline: none;
+  border: 1px solid white;
+  padding: 30px 240px 30px 35px;
+  box-shadow: 10px 20px 50px 0px rgba(0, 0, 0, 0.15);
+  color: #2639ed;
+  font-family: "Averta Demo PE";
+  font-size: 16px;
+}
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+  .newsletter .containerNews .inputheight .input input {
+    padding: 15px 60px 15px 60px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 1279px) and (min-width: 320px) and (max-width: 1279px) {
+  .newsletter .containerNews .inputheight .input input {
+    margin-bottom: 10px;
+  }
+}
+.newsletter .containerNews .inputheight .input #email::placeholder {
+  font-family: "Averta Demo PE";
+  font-size: 16px;
+  color: #959595;
+}
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+  .newsletter .containerNews .inputheight .input #email::placeholder {
+    font-size: 13px;
+  }
+}
+.newsletter .containerNews .inputheight .input .contactNews {
+  position: absolute;
+  z-index: 2;
+  right: 0;
+  margin-top: 118px;
+}
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+  .newsletter .containerNews .inputheight .input .contactNews {
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: unset;
+  }
+}
+.newsletter .containerNews .inputheight .input .contactNews button {
+  padding: 20px 40px;
+  border-radius: 60px;
+  background-color: #2639ed;
+  color: #fff;
+  border: none;
+  margin-right: 15px;
+}
+.newsletter .containerNews .inputheight .input .contactNews button:hover {
+  color: #fff;
+  background-color: rgba(38, 58, 237, 0.6941176471);
+  cursor: pointer;
+  transform: scale(105%);
+}
+
+footer {
+  display: grid;
+  grid-template-columns: minmax(5vw, 1fr) repeat(12, minmax(11px, 100px)) minmax(5vw, 1fr);
+  height: 400px;
+}
+@media (max-width: 1279px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 40px;
+    align-items: center;
+    padding: 0 45px;
+    text-align: center;
+  }
+}
+footer .border-top {
+  grid-column: 2/-2;
+  border-top: 1px solid #e4e4e4;
+}
+footer .border-bottom {
+  grid-column: 2/-2;
+  border-top: 1px solid #e4e4e4;
+  margin-bottom: 20px;
+}
+footer .logosRS {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  grid-column: 2/5;
+  margin-top: 60px;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  footer .logosRS {
+    margin-top: 700px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1279px) {
+  footer .logosRS {
+    margin-top: 700px;
+  }
+}
+footer .logosRS .logo .title-logo {
+  padding-bottom: 25px;
+  font-family: "Proxima Nova Bold";
+  font-size: 27.147px;
+  display: inline-block;
+}
+footer .logosRS .logo .title-logo:hover {
+  color: #2639ed;
+  transform: scale(105%);
+  cursor: pointer;
+}
+footer .logosRS .logo .plus {
+  font-family: "Proxima Nova Regular";
+}
+footer .logosRS .logo .span-logo {
+  font-family: "Averta Demo PE";
+  font-size: 27.147px;
+  color: #2639ed;
+}
+footer .logosRS .text {
+  font-family: "Averta Demo PE";
+  font-size: 14px;
+  color: #565656;
+  line-height: 160%;
+  padding-bottom: 40px;
+}
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  footer .logosRS .text {
+    padding: 0 100px;
+  }
+}
+footer .logosRS .social-media {
+  margin-bottom: 30px;
+  display: flex;
+  gap: 15px;
+}
+@media screen and (max-width: 1279px) {
+  footer .logosRS .social-media {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+  }
+}
+footer .logosRS .social-media img {
+  object-fit: cover;
+  width: 100%;
+}
+footer .logosRS .social-media img:hover {
+  transform: scale(110%);
+  opacity: 0.5;
+}
+footer .containMenufooter {
+  display: flex;
+  justify-content: end;
+  grid-column: 6/-2;
+}
+@media (max-width: 1279px) {
+  footer .containMenufooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    align-items: center;
+    padding: 0 45px;
+    text-align: center;
+  }
+}
+footer .containMenufooter .whatwedo {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+}
+@media (max-width: 1279px) {
+  footer .containMenufooter .whatwedo {
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+}
+footer .containMenufooter .whatwedo .title-menu {
+  font-size: 20px;
+  font-family: "Averta Demo PE";
+  color: #000;
+  padding-bottom: 25px;
+}
+footer .containMenufooter .whatwedo ul li {
+  font-size: 14px;
+  font-family: "Averta Demo PE";
+  color: #000;
+  line-height: 160%;
+}
+footer .containMenufooter .whatwedo ul li:hover {
+  cursor: pointer;
+  transform: scale(101%);
+  color: #2639ed;
+}
+footer .containMenufooter .company {
+  margin-left: 120px;
+  margin-top: 60px;
+}
+@media (max-width: 1279px) {
+  footer .containMenufooter .company {
+    margin-left: 0px;
+  }
+}
+footer .containMenufooter .company .title-menu {
+  font-size: 20px;
+  font-family: "Averta Demo PE";
+  color: #000;
+  padding-bottom: 25px;
+}
+footer .containMenufooter .company ul li {
+  font-size: 14px;
+  font-family: "Averta Demo PE";
+  color: #000;
+  line-height: 160%;
+}
+footer .containMenufooter .company ul li:hover {
+  cursor: pointer;
+  transform: scale(101%);
+  color: #2639ed;
+}
+footer .containMenufooter .support {
+  margin-left: 105px;
+  margin-top: 60px;
+}
+@media (max-width: 1279px) {
+  footer .containMenufooter .support {
+    margin-left: 0px;
+  }
+}
+footer .containMenufooter .support .title-menu {
+  font-size: 20px;
+  font-family: "Averta Demo PE";
+  color: #000;
+  padding-bottom: 25px;
+}
+footer .containMenufooter .support ul li {
+  font-size: 14px;
+  font-family: "Averta Demo PE";
+  color: #000;
+  line-height: 160%;
+}
+footer .containMenufooter .support ul li:hover {
+  cursor: pointer;
+  transform: scale(101%);
+  color: #2639ed;
+}
+footer .containMenufooter .contact {
+  margin-left: 105px;
+  margin-top: 60px;
+}
+@media (max-width: 1279px) {
+  footer .containMenufooter .contact {
+    margin-left: 0px;
+    margin-bottom: 105px;
+  }
+}
+footer .containMenufooter .contact .title-menu {
+  font-size: 20px;
+  font-family: "Averta Demo PE";
+  color: #000;
+  padding-bottom: 25px;
+}
+footer .containMenufooter .contact ul li {
+  font-size: 14px;
+  font-family: "Averta Demo PE";
+  color: #000;
+  line-height: 160%;
+}
+footer .containMenufooter .contact ul li:hover {
+  cursor: pointer;
+  transform: scale(101%);
+  color: #2639ed;
+}
+footer .copyright {
+  grid-column: 2/-2;
+  text-align: center;
+  color: #a4a4a4;
+  font-family: "Averta Demo PE";
+  font-size: 14px;
+  line-height: 160%;
+  margin-bottom: 10px;
+}

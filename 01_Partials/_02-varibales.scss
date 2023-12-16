@@ -1,0 +1,30 @@
+//Variables
+
+// fonts
+@import url(https://db.onlinewebfonts.com/c/c0c47f73ebd351d0d703e64d8558fe77?family=Averta+Demo+PE);
+// font-family: "Averta Demo PE";
+
+@import url(https://db.onlinewebfonts.com/c/c36a75c5ada59665e225bbf5e38efd34?family=Averta-Bold);
+// font-family: "Averta-Bold";
+
+@import url(https://db.onlinewebfonts.com/c/72b6f2c9990bd3d37b8013a59ed78902?family=Proxima+Nova+Bold);
+// font-family: "Proxima Nova Bold";
+
+@import url(https://db.onlinewebfonts.com/c/f14eee643541cf03a10f26c944cc29f5?family=Proxima+Nova+Semibold);
+// font-family: "Proxima Nova Regular";
+
+$font: "Averta Demo PE";
+$fontTitle: "Averta-Bold";
+$fontLogo: "Proxima Nova Bold";
+$fontPlus: "Proxima Nova Regular";
+
+// container :
+$container-width: 1200px;
+
+// Couleurs :
+$black: #000;
+$white: #fff;
+$grayText: #565656;
+$grayText2: #757575;
+$Blue: #2639ed;
+$lightBlue: #f4f9ff;

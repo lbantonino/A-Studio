@@ -1,0 +1,168 @@
+.one {
+  margin: 0 !important;
+  @include container;
+  padding-bottom: 133px;
+  box-sizing: border-box;
+  width: 100vw !important;
+  margin: 0 !important;
+  @media screen and (min-width: 319px) and (max-width: 1279px) {
+    grid-template-rows: 2fr;
+    row-gap: 100px;
+    margin-bottom: 20px !important;
+  }
+  .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+    grid-column: 2/7;
+    @media screen and (min-width: 319px) and (max-width: 767px) {
+      text-align: center;
+      grid-column: 2/-2;
+      align-items: center;
+      margin-top: 80px;
+    }
+    @media screen and (min-width: 768px) and (max-width: 1279px) {
+      grid-column: 4/12;
+      margin-top: 80px;
+      align-items: center;
+    }
+    .title-section1 {
+      font-family: $font;
+      font-size: 40px;
+      color: $black;
+      padding-bottom: 40px;
+      @media screen and (min-width: 319px) and (max-width: 767px) {
+        font-size: 30px;
+        width: 300px;
+      }
+      span {
+        color: $Blue;
+      }
+      @media screen and (min-width: 768px) and (max-width: 1279px) {
+        font-size: 35px;
+        padding-bottom: 20px;
+      }
+    }
+    .text {
+      color: $grayText;
+      font-family: $font;
+      font-size: 16px;
+      line-height: 160%;
+      padding-bottom: 35px;
+      @media screen and (min-width: 319px) and (max-width: 767px) {
+        text-align: center;
+        font-size: 14px;
+        width: 280px;
+      }
+      @media screen and (min-width: 768px) and (max-width: 1279px) {
+        text-align: center;
+      }
+    }
+    .btn {
+      position: relative;
+      .contact {
+        width: 215px;
+        height: 65px;
+        border-radius: 60px;
+        background-color: $Blue;
+        color: $white;
+        font-family: $font;
+        font-size: 20px;
+        letter-spacing: 1.3px;
+        border: none;
+        display: block;
+        @media screen and (min-width: 319px) and (max-width: 767px) {
+          width: 170px;
+          height: 50px;
+          font-size: 16px;
+        }
+        @media screen and (min-width: 768px) and (max-width: 1279px) {
+          width: 190px;
+          height: 50px;
+        }
+      }
+      .contact:hover {
+        color: $white;
+        background-color: #263aedb1;
+        cursor: pointer;
+        transform: scale(105%);
+      }
+      .dotShape-left {
+        position: absolute;
+        width: 196px;
+        height: 154px;
+        top: 30px;
+        z-index: -1;
+        left: -54px;
+        @media screen and (min-width: 319px) and (max-width: 767px) {
+          width: 60%;
+          left: -30px;
+          top: -20px;
+        }
+        @media screen and (min-width: 768px) and (max-width: 1279px) {
+          left: -60px;
+          width: 80%;
+          top: -20px;
+        }
+      }
+      .dotShape-right {
+        position: absolute;
+        width: 196px;
+        height: 154px;
+        top: 30px;
+        z-index: -1;
+        left: 153px;
+        @media screen and (min-width: 319px) and (max-width: 767px) {
+          width: 60%;
+          left: 110px;
+          top: -20px;
+        }
+        @media screen and (min-width: 768px) and (max-width: 1279px) {
+          left: 104px;
+          width: 80%;
+          top: -20px;
+        }
+      }
+    }
+  }
+  .right {
+    position: relative;
+    z-index: 2;
+    grid-column: 8/-1;
+    @media screen and (min-width: 319px) and (max-width: 767px) {
+      grid-row: 2/2;
+      grid-column: 4/-1;
+    }
+    @media screen and (min-width: 768px) and (max-width: 1279px) {
+      grid-row: 2/2;
+      grid-column: 5/-1;
+    }
+    .shapeCircle {
+      z-index: -2;
+      position: absolute;
+      left: -65px;
+      @media screen and (min-width: 319px) and (max-width: 767px) {
+        left: -40px;
+        top: 0px;
+        img {
+          width: 70%;
+        }
+      }
+    }
+    .shape {
+      position: absolute;
+      bottom: -100px;
+      right: 120px;
+      z-index: -1;
+      @media screen and (min-width: 319px) and (max-width: 767px) {
+        bottom: -60px;
+        right: -21px;
+        img {
+          width: 60%;
+        }
+      }
+    }
+  }
+}

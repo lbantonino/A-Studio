@@ -1,0 +1,101 @@
+header {
+  @include container;
+  background-color: $white;
+  margin-top: 40px;
+  margin-bottom: 45px;
+
+  .wrapper {
+    background-color: white;
+    grid-column: 2/4;
+    margin: 0;
+    padding: 0;
+    @media screen and (min-width: 319px) and (max-width: 767px) {
+      grid-column: 2/6;
+      display: flex;
+      align-items: center;
+    }
+    @media screen and (min-width: 768px) and (max-width: 1279px) {
+      grid-column: 2/5;
+      padding: 0;
+      margin: 0;
+    }
+    .title-logo {
+      font-family: $fontLogo;
+      font-size: 27.147px;
+      display: inline-block;
+      @media screen and (min-width: 319px) and (max-width: 767px) {
+        font-size: 20px;
+      }
+
+      .plus {
+        font-family: $fontPlus;
+        @media screen and (min-width: 319px) and (max-width: 767px) {
+          font-size: 20px;
+        }
+      }
+      .span-logo {
+        font-family: $font;
+        font-size: 27.147px;
+        color: $Blue;
+        @media screen and (min-width: 319px) and (max-width: 767px) {
+          font-size: 20px;
+        }
+      }
+    }
+    .title-logo:hover {
+      color: $grayText;
+      transform: scale(102%);
+      cursor: pointer;
+    }
+    .span-logo:hover {
+      color: $grayText;
+      transform: scale(102%);
+      cursor: pointer;
+    }
+  }
+  .hamburger {
+    display: none;
+    @media screen and (max-width: 1023px) {
+      display: flex;
+      grid-column: -3/-2;
+      font-size: 30px;
+      justify-content: end;
+      align-items: center;
+      position: relative;
+      right: -5px;
+    }
+  }
+  nav {
+    display: flex;
+    justify-content: end;
+    grid-column: 7/-2;
+    background-color: $white;
+    @media screen and (min-width: 1024px) and (max-width: 1279px) {
+      grid-column: 6/-2;
+    }
+    @media screen and (max-width: 1023px) {
+      display: none;
+    }
+    ul {
+      display: flex;
+      align-items: center;
+      gap: 60px;
+      li {
+        font-size: 16px;
+        font-family: $font;
+        letter-spacing: 0.16px;
+        @media screen and (min-width: 1024px) and (max-width: 1279px) {
+          font-size: 14px;
+        }
+        a {
+          padding-bottom: 2px;
+        }
+        a:hover {
+          color: rgba(29, 29, 29, 0.623);
+          border-bottom: 3px solid $Blue;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

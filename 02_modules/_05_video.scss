@@ -1,0 +1,114 @@
+.video {
+  @include container;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 180px;
+  width: 100vw !important;
+  margin-right: 0 !important;
+  @media screen and (min-width: 320px) and (max-width: 1024px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+  }
+  .youtube-player {
+    grid-column: 2/8;
+    iframe {
+      border-radius: 52px;
+      box-shadow: 10px 20px 50px 0px rgba(0, 0, 0, 0.15);
+      @media screen and (min-width: 320px) and (max-width: 389px) {
+        width: 300px;
+        height: 200px;
+        border-radius: 18px;
+        margin-bottom: 50px;
+      }
+      @media screen and (min-width: 390px) and (max-width: 430px) {
+        width: 360px;
+        height: 260px;
+        border-radius: 22px;
+        margin-bottom: 80px;
+      }
+    }
+  }
+  .youtube-player::before {
+    content: "";
+    background-image: url("../../DOM_06_Final_Exercices/images/section-video/Ellipse1.png");
+    width: 129px;
+    height: 129px;
+    bottom: -50px;
+    left: 488px;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    z-index: -1;
+    position: absolute;
+  }
+  .text-video {
+    grid-column: 9/-2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    @media screen and (min-width: 320px) and (max-width: 1024px) {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .title-video {
+      font-family: $font;
+      font-size: 40px;
+      color: $black;
+      line-height: 1.2;
+      padding-bottom: 30px;
+      span {
+        color: $Blue;
+      }
+      @media screen and (min-width: 320px) and (max-width: 767px) {
+        width: 290px;
+        font-size: 30px;
+        text-align: center;
+      }
+      @media screen and (min-width: 768px) and (max-width: 1024px) {
+        padding: 80px 100px 0;
+        text-align: center;
+      }
+    }
+    .title-video::before {
+      content: "";
+      background-image: url("../../DOM_06_Final_Exercices/images/section-video/Rectangle2.png");
+      width: 179px;
+      height: 178px;
+      top: -30px;
+      left: -30px;
+      background-repeat: no-repeat;
+      background-position: left top;
+      z-index: -1;
+      position: absolute;
+      @media screen and (min-width: 320px) and (max-width: 767px) {
+        left: 10px;
+      }
+      @media screen and (min-width: 768px) and (max-width: 1024px) {
+        left: 70px;
+        top: 30px;
+      }
+    }
+    .p-video {
+      color: $grayText;
+      font-family: $font;
+      font-size: 16px;
+      line-height: 160%;
+      @media screen and (min-width: 320px) and (max-width: 767px) {
+        padding: 30px;
+        text-align: center;
+        font-size: 14px;
+      }
+      @media screen and (min-width: 768px) and (max-width: 1024px) {
+        padding: 80px 80px 0;
+        text-align: center;
+      }
+    }
+  }
+}

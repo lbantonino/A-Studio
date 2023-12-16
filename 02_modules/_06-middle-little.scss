@@ -1,0 +1,54 @@
+.middle-little {
+  padding-bottom: 115px;
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    padding: 0 50px 0px;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .title {
+      text-align: center;
+      padding-bottom: 17px;
+      font-family: $font;
+      font-size: 40px;
+      color: $black;
+      br {
+        display: none;
+        @media screen and (min-width: 430px) and (max-width: 767px) {
+          display: block;
+        }
+      }
+      @media screen and (min-width: 375px) and (max-width: 767px) {
+        font-size: 30px;
+        padding: 0 10px 20px;
+      }
+      @media screen and (max-width: 320px) {
+        font-size: 25px;
+      }
+      span {
+        color: $Blue;
+      }
+    }
+    .p-middle {
+      text-align: center;
+      font-size: 18px;
+      color: $grayText2;
+      line-height: 160%;
+      font-family: $font;
+      br {
+        display: none;
+      }
+      @media screen and (min-width: 320px) and (max-width: 767px) {
+        font-size: 14px;
+
+        @media screen and (min-width: 321px) and (max-width: 767px) {
+          br {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+}
