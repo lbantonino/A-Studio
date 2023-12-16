@@ -16,6 +16,9 @@
 
 
 body {
-        width: 100vw;
+    @media screen and (min-width: 320px) and (max-width: 1279px) {
+        width: 100vw !important;
         overflow-x: hidden;
+    }
+        width: 100vw;
     }
