@@ -1761,11 +1761,6 @@ header nav ul li a:hover {
 .newsletter {
   margin-bottom: 150px;
 }
-@media screen and (min-width: 320px) and (max-width: 1279px) {
-  .newsletter {
-    overflow-x: hidden;
-  }
-}
 @media screen and (min-width: 320px) and (max-width: 1023px) {
   .newsletter {
     display: flex;
@@ -2041,11 +2036,6 @@ footer {
   display: grid;
   grid-template-columns: minmax(5vw, 1fr) repeat(12, minmax(11px, 100px)) minmax(5vw, 1fr);
   height: 400px;
-}
-@media screen and (min-width: 320px) and (max-width: 1279px) {
-  footer {
-    overflow-x: hidden;
-  }
 }
 @media (max-width: 1279px) {
   footer {
