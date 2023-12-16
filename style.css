@@ -623,6 +623,7 @@ header nav ul li a:hover {
 @media screen and (min-width: 320px) and (max-width: 1279px) {
   .help {
     overflow-x: hidden;
+    width: 100vw;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1279px) {
@@ -1761,6 +1762,12 @@ header nav ul li a:hover {
 .newsletter {
   margin-bottom: 150px;
 }
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+  .newsletter {
+    overflow-x: hidden;
+    width: 100vw;
+  }
+}
 @media screen and (min-width: 320px) and (max-width: 1023px) {
   .newsletter {
     display: flex;
@@ -2036,6 +2043,11 @@ footer {
   display: grid;
   grid-template-columns: minmax(5vw, 1fr) repeat(12, minmax(11px, 100px)) minmax(5vw, 1fr);
   height: 400px;
+}
+@media screen and (min-width: 320px) and (max-width: 1279px) {
+  footer {
+    overflow-x: hidden;
+  }
 }
 @media (max-width: 1279px) {
   footer {
