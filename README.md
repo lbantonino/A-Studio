@@ -10,11 +10,7 @@
 
 I'll leave you the link to the application here : https://lbantonino.github.io/A-Studio/
 
-*I'm sorry for the mess in this project with the png images, but I can't get git push on my ide. Allow me to have everything sent via github directly. 
-ps: Besides, it's not a very interesting project, just a landing page*
-
 Here are some demos...
-
 
 ---
 
@@ -24,49 +20,49 @@ Here are some demos...
 <br>
 
 <p align="center">
-    <img src="mobile (21).png" width="550">
+    <img src="pictures/mobile (21).png" width="550">
 </p>
 
 <br>
 <br>
 
 <p align="center">
-    <img src="mobile (22).png" width="550">
+    <img src="pictures/mobile (22).png" width="550">
 </p>
 
 <br>
 <br>
 
 <p align="center">
-    <img src="mobile (23).png" width="550">
+    <img src="pictures/mobile (23).png" width="550">
 </p>
 
 <br>
 <br>
 
 <p align="center">
-    <img src="mobile (24).png" width="550">
+    <img src="pictures/mobile (24).png" width="550">
 </p>
 
 <br>
 <br>
 
 <p align="center">
-    <img src="mobile (25).png" width="550">
+    <img src="pictures/mobile (25).png" width="550">
 </p>
 
 <br>
 <br>
 
 <p align="center">
-    <img src="mobile (26).png" width="550">
+    <img src="pictures/mobile (26).png" width="550">
 </p>
 
 <br>
 <br>
 
 <p align="center">
-    <img src="mobile (27).png" width="550">
+    <img src="pictures/mobile (27).png" width="550">
 </p>
 
 <br>
@@ -80,7 +76,7 @@ Here are some demos...
 <br>
 
 <p align="center">
-    <img src="mobile (28).png" width="250">
+    <img src="pictures/mobile (28).png" width="250">
 </p>
 
 
@@ -88,33 +84,33 @@ Here are some demos...
 <br>
 
 <p align="center">
-    <img src="mobile (29).png" width="250">
+    <img src="pictures/mobile (29).png" width="250">
 </p>
 
 <br>
 <br>
 
 <p align="center">
-    <img src="mobile (30).png" width="250">
+    <img src="pictures/mobile (30).png" width="250">
 </p>
 
 <br>
 <br>
 
 <p align="center">
-    <img src="mobile (31).png" width="250">
+    <img src="pictures/mobile (31).png" width="250">
 </p>
 
 <br>
 <br>
 
 <p align="center">
-    <img src="mobile (32).png" width="250">
+    <img src="pictures/mobile (32).png" width="250">
 </p>
 
 <br>
 <br>
 
 <p align="center">
-    <img src="mobile (33).png" width="250">
+    <img src="pictures/mobile (33).png" width="250">
 </p>
