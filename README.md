@@ -27,42 +27,42 @@ Here are some demos...
 <br>
 
 <p align="center">
-    <img src="pictures/mobile (22).png" width="550">
+    <img src="mobile (22).png" width="550">
 </p>
 
 <br>
 <br>
 
 <p align="center">
-    <img src="pictures/mobile (23).png" width="550">
+    <img src="mobile (23).png" width="550">
 </p>
 
 <br>
 <br>
 
 <p align="center">
-    <img src="pictures/mobile (24).png" width="550">
+    <img src="mobile (24).png" width="550">
 </p>
 
 <br>
 <br>
 
 <p align="center">
-    <img src="pictures/mobile (25).png" width="550">
+    <img src="mobile (25).png" width="550">
 </p>
 
 <br>
 <br>
 
 <p align="center">
-    <img src="pictures/mobile (26).png" width="550">
+    <img src="mobile (26).png" width="550">
 </p>
 
 <br>
 <br>
 
 <p align="center">
-    <img src="pictures/mobile (27).png" width="550">
+    <img src="mobile (27).png" width="550">
 </p>
 
 <br>
@@ -76,7 +76,7 @@ Here are some demos...
 <br>
 
 <p align="center">
-    <img src="pictures/mobile (28).png" width="250">
+    <img src="mobile (28).png" width="250">
 </p>
 
 
@@ -84,33 +84,33 @@ Here are some demos...
 <br>
 
 <p align="center">
-    <img src="pictures/mobile (29).png" width="250">
+    <img src="mobile (29).png" width="250">
 </p>
 
 <br>
 <br>
 
 <p align="center">
-    <img src="pictures/mobile (30).png" width="250">
+    <img src="mobile (30).png" width="250">
 </p>
 
 <br>
 <br>
 
 <p align="center">
-    <img src="pictures/mobile (31).png" width="250">
+    <img src="mobile (31).png" width="250">
 </p>
 
 <br>
 <br>
 
 <p align="center">
-    <img src="pictures/mobile (32).png" width="250">
+    <img src="mobile (32).png" width="250">
 </p>
 
 <br>
 <br>
 
 <p align="center">
-    <img src="pictures/mobile (33).png" width="250">
+    <img src="mobile (33).png" width="250">
 </p>
