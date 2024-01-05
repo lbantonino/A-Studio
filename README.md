@@ -10,8 +10,9 @@
 
 I'll leave you the link to the application here : https://lbantonino.github.io/A-Studio/
 
-Here are some demos...
-
+- 📫 MAIL:  **antonino.lobianco@outlook.com**
+- 
+ Here are some demos...
 ---
 
 ## DESKTOP
