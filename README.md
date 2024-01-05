@@ -20,7 +20,7 @@ Here are some demos...
 <br>
 
 <p align="center">
-    <img src="pictures/mobile (21).png" width="550">
+    <img src="mobile (21).png" width="550">
 </p>
 
 <br>
