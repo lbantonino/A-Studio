@@ -8,9 +8,19 @@
 
  This website is my second landing page. There is no interaction with the buttons (except for the hover buttons) so don't expect any specific interaction in relation to the button title. The aim was really to discover JavaScript and its libraries. 
 
-I'll leave you the link to the application here : https://lbantonino.github.io/A-Studio/
+ <br>
 
-- 📫 MAIL:  **antonino.lobianco@outlook.com**
+🔗 **A+ STUDIO** : **https://lbantonino.github.io/A-Studio/**
+
+✉️ MAIL:  **antonino.lobianco@outlook.com**
+  
+🟦 LINKEDIN : **https://www.linkedin.com/in/antonino-lo-bianco-605765188/**
+
+⬛️ DEV : **[https://www.linkedin.com/in/antonino-lo-bianco-605765188/](https://dev.to/lbantonino)**
+
+💻 PORTFOLIO: **https://lbantonino.vercel.app/**
+
+<br>
   
 ##### Here are some demos...
 ---
