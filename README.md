@@ -10,8 +10,8 @@
 
 I'll leave you the link to the application here : https://lbantonino.github.io/A-Studio/
 
-I'm sorry for the mess in this project with the png images, but I can't get git push on my ide. Allow me to have everything sent via github directly. 
-ps: Besides, it's not a very interesting project.
+*I'm sorry for the mess in this project with the png images, but I can't get git push on my ide. Allow me to have everything sent via github directly. 
+ps: Besides, it's not a very interesting project.*
 
 Here are some demos...
 
