@@ -11,8 +11,7 @@
 I'll leave you the link to the application here : https://lbantonino.github.io/A-Studio/
 
 - 📫 MAIL:  **antonino.lobianco@outlook.com**
-- 
- Here are some demos...
+Here are some demos...
 ---
 
 ## DESKTOP
